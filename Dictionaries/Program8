@@ -1,0 +1,13 @@
+#Write a Python program to multiply all the items in a dictionary. 
+n=int(input("Enter the size of dictionary"))
+dict_1={}
+K=1
+V=1
+for i in range(0,n):
+    x=int(input("enter the key"))
+    y=int(input("enter value"))
+    dict_1.update({x:y})
+    K=K*x
+    V=V*y
+print("key multiplication is",K)
+print("value multiplication is",V)
