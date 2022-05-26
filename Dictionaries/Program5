@@ -1,0 +1,8 @@
+#Write a Python script to check if a given key already exists in a dictionary. 
+a={1:2,2:3,3:4}
+k=list(a.keys())
+K=eval(input("enter key"))
+if K in k:
+    print("Key already exists")
+else:
+    print("Key does not exist")
