@@ -1,0 +1,12 @@
+# Python-Practical
+#Write a Python script to sort (ascending) a dictionary by value.
+a={1:7,2:3,3:5}
+b=list(a.values())
+c=list(a.keys())
+b.sort()
+dict_1={}
+for i in range(0,len(b)):
+    x=c[i]
+    y=b[i]
+    dict_1[x]=y
+print(dict_1)
