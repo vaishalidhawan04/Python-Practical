@@ -1,0 +1,12 @@
+#Write a Python program to sum all the items in a dictionary.
+n=int(input("Enter the size of dictionary"))
+dict_1={}
+for i in range(0,n):
+    x=eval(input("enter the key"))
+    y=eval(input("enter value"))
+    dict_1.update({x:y})
+lis=list(dict_1.values())
+s=lis[0]
+for i in range(1,n):
+    s=s+lis[i]
+print(s)
