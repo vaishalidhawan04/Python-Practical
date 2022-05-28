@@ -1,0 +1,10 @@
+#Write a Python program to remove a key from a dictionary. 
+n=int(input("Enter the size of dictionary"))
+dict_1={}
+for i in range(0,n):
+    x=eval(input("enter the key"))
+    y=eval(input("enter value"))
+    dict_1.update({x:y})
+a=eval(input("enter key to be removed"))
+dict_1.pop(a)
+print(dict_1)
