@@ -1,0 +1,17 @@
+#Define a function which counts vowels and consonant in 
+#a word.
+def vow_or_cons(st):
+    v=0
+    c=0
+    st=list(st)
+    for i in st:
+        if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+            v+=1
+        else:
+            c+=1
+    return v,c
+a=input("enter a string")
+A=a.lower()
+V,C=vow_or_cons(A)
+print("numebr of vowels=",V)
+print("number of consonants=",C)
