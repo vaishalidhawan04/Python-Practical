@@ -1,0 +1,17 @@
+#Define a function that accepts lowercase words and 
+#returns uppercase words
+def to_upper(st):
+    lst=list(st)
+    St=''
+    c=0
+    for i in lst:
+        if i>'a' and i<='z':
+            lst[c]=lst[c].upper()
+        St=St+lst[c]
+        c=c+1
+        if c==len(lst):
+            break
+    return St
+st=input("enter a string")
+St=to_upper(st)
+print(St)
