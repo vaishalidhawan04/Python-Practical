@@ -1,0 +1,9 @@
+#Define a function that accepts roll number and returns 
+#whether the student is present or absent.
+def check_attendance(r):
+    if r in roll:
+        print(stu_roll[r],"is present")
+stu_roll={1:'abhay',2:'ashu',3:'reshu',4:'vaishali'}
+roll=stu_roll.keys()
+R=int(input("Enter roll number of student"))
+check_attendance(R)
