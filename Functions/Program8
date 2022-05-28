@@ -1,0 +1,17 @@
+#Define a second function called by_three that takes 
+#an argument called number. if that number is divisible 
+#by 3,by_threeshould call cube(number) and return 
+#its result. Otherwise, by_three should return False. -
+#Check if it works.
+def find_cube(n):
+    c=n**3
+    return c
+def by_three(n):
+    if n%3==0:
+        C=find_cube(n)
+        return C
+    else:
+        return False
+N=int(input("Enter a number"))
+cube=by_three(N)
+print(cube)
