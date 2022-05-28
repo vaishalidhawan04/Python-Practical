@@ -1,0 +1,9 @@
+#Make that function return the cube of that number 
+#(i.e. that number multiplied by itself and multiplied by 
+#itself once again)
+def find_cube(n):
+    c=n**3
+    return c
+n=int(input("enter number to find it's cube"))
+c=find_cube(n)
+print("cube is",c)
