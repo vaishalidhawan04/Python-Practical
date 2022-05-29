@@ -1,0 +1,6 @@
+#Write a NumPy program to create a NxN identity matrix. N is user entered positive Integer.
+import numpy as np
+N=int(input("Enter the dimension"))
+list1=list(map(int,input("Enter elements").split()))
+mat1=np.array(list1).reshape(N,N)
+print(mat1)
