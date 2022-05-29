@@ -1,0 +1,10 @@
+#You are given a NxM integer array matrix with space separated elements (N = rows and M = columns). Your task is to print the transpose and flatten results. 
+import numpy as np
+N,M=list(map(int,input("Enter elements").split()))
+lst1=[]
+for i in range(N):
+    lst=list(map(int,input("Enter elements").split()))
+    lst1.append(lst)
+arr=np.array(lst1)
+print(arr.T)
+print(np.ravel(arr))
