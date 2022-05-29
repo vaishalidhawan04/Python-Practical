@@ -1,0 +1,13 @@
+#Write a Python function that takes a list and returns a.
+#new list with unique elements of the first list.
+def unique_elements(lst):
+    lst1=[]
+    for i in lst:
+        if i in lst1:
+            pass
+        else:
+            lst1.append(i)
+    return lst1
+lst=eval(input("enter a list"))
+lst1=unique_elements(lst)
+print(lst1)
