@@ -1,0 +1,11 @@
+#Write a Python program to remove all the numbers in a given array which is equal and greater to a given number
+import numpy as np
+a=eval(input("enetr list"))
+lst=[]
+ar=np.array(a)
+n=int(input("enter a number"))
+for i in range(0,len(a)):
+    if ar[i]>=n:
+        lst.append(i)
+ar=np.delete(ar,lst)
+print(ar)
