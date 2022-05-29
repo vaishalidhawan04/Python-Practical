@@ -1,0 +1,4 @@
+#Write a Python program to create an array using numpy of all the even integers from 1 to 100.
+import numpy as np 
+ar_ev=np.arange(2,102,2)
+print(ar_ev)
