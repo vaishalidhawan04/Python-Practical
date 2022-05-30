@@ -1,0 +1,9 @@
+#python program to handle simple run time error.
+try:
+    l=[1,2,3,4]
+    m=int(input())
+    print(l[m])
+except:
+    print("An error occured")
+else:
+    print("number has been print successfully")
