@@ -1,0 +1,7 @@
+#Write a program in Python to copy the entire content from file “data.txt” to “story.txt”
+ref= open("data.txt", "r")
+ref1 = open("story.txt", "w")
+d = ref.read()
+ref1.write(d)
+ref.close()
+ref1.close()
